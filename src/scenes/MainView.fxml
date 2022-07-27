@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="391.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="-1.0" prefHeight="392.0" prefWidth="363.0" />
+      <MenuBar layoutY="2.0" prefHeight="26.0" prefWidth="363.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Registrar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Vendedor" />
+                  <MenuItem mnemonicParsing="false" text="Departamento" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Atualizar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Vendedor" />
+                  <MenuItem mnemonicParsing="false" text="Departamento" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Deletar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Vendedor" />
+                  <MenuItem mnemonicParsing="false" text="Departamento" />
+            </items>
+          </Menu>
+        </menus>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </MenuBar>
+   </children>
 </AnchorPane>
-
